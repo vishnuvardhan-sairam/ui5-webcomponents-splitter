@@ -1,25 +1,13 @@
 .splitterLayout {
-    height: 100vh;
+  height: 100vh;
 }
 
 .splitterLayout > div[class*="Splitter-splitter"] {
-    width: 1px;
-    min-width: 1px;
-    background-color: #dedede;
+  width: 4px;
+  min-width: 4px;
+  background-color: #dedede;
 }
 
-/* .splitterLayout > div[class*="Splitter-splitter"] > div[class*="Splitter-lineBefore"] {
-    display: none;
+.splitterLayout > div[class*="Splitter-splitter"] > ui5-icon {
+  border: 1px solid black;
 }
-
-.splitterLayout > div[class*="Splitter-splitter"] > div[class*="Splitter-lineAfter"] {
-    display: none;
-}
-
-.splitterLayout > div[class*="Splitter-splitter"]:hover {
-    border-right: '1px solid #427cac',
-}
-
-.splitterLayout > div[class*="Splitter-splitter"]:active {
-    border-right: '4px solid #427cac',
-} */
